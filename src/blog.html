@@ -19,7 +19,6 @@
                 <button class="btn btn-primary" id="create-task-btn" href="blog.html">Create Task</button>
             </div>
         </div>
-
         <div class="row mt-5">
             <div class="col-md-12">
                 <h2>Tasks</h2>
@@ -31,7 +30,6 @@
                 </ul>
             </div>
         </div>
-
         <div class="row mt-5">
             <div class="col-md-12">
                 <h2>About</h2>
@@ -39,14 +37,12 @@
                 <p>Feel free to explore the application and make it your own!</p>
             </div>
         </div>
-
         <div class="row mt-5">
             <div class="col-md-12">
                 <h2>Contact</h2>
                 <p>If you have any questions or feedback, please reach out to us at <a href="#">Contact</a></p>
             </div>
         </div>
-
         <div class="row mt-5">
             <div class="col-md-12">
                 <footer class="text-center">
@@ -68,8 +64,7 @@
             taskList.appendChild(newTask);
         }
         // Example usage
-        addTask('Sample Task 1');
-        addTask('Sample Task 2');
+        for (let i = 0; i <= 5; i++) {addTask('Sample Task ' + (i + 1));}
     </script>
 </body>
 </html>
