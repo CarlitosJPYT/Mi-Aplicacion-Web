@@ -1,0 +1,40 @@
+{
+    "users": {
+        "id": 1,
+        "name": "Juan Esteban",
+        "username": "CarlitosJPYT",
+        "email": "Juanpana10ospina@gmail.com",
+        "password": "pradaospina",
+        "role": "admin"
+        },
+    "products": [{
+            "id": 1,
+            "name": "Product 1",
+            "description": "Description of Product 1",
+            "price": 100.00,
+            "category": "Category 1"
+        },
+        {
+            "id": 2,
+            "name": "Product 2",
+            "description": "Description of Product 2",
+            "price": 200.00,
+            "category": "Category 2"
+        }
+    ],
+    "orders": [{
+            "id": 1,
+            "userId": 1,
+            "productId": 1,
+            "quantity": 2,
+            "status": "pending"
+        },
+        {
+            "id": 2,
+            "userId": 1,
+            "productId": 2,
+            "quantity": 1,
+            "status": "completed"
+        }
+    ]
+}
